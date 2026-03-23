@@ -1454,6 +1454,30 @@ hr.invis1 {
 	box-shadow: 0 0 10px #ccc;
 }
 
+.gallery-single {
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    text-align: center !important;
+    background-color: #fff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 20px !important;
+}
+
+.gallery-single img {
+    max-width: 100%;
+    height: 200px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Asegura que la imagen se recorte proporcionalmente */
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery-single p {
+    padding: 10px !important;
+    font-size: 14px !important;
+    color: #555 !important;
+}
+
 .gallery-list .img-overlay {
     position: absolute;
     top: 10px;
